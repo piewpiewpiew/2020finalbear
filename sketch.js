@@ -52,7 +52,7 @@ button2.mouseClicked(bringAnger);
 function draw() {
     if(bearState == 3)
 {
-    image(img4, 100, 100, 400, 300);
+    image(img4, 100, 170, 560, 460);
 }
     if (bearState == 2) {
         background(255);
@@ -121,7 +121,7 @@ function draw() {
 function nextState() {
     bearState = 2;
     console.log("next");
- 
+}
 function bringAnger(){
     bearState = 3;
  }
